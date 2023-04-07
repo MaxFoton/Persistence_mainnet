@@ -21,6 +21,11 @@
 **Peer**
 `Peer` 88497ab3bbbcc1e8545771f45020e738bcce590f@95.165.89.222:26565
 
+***IBC Relayer GravityBridge***
+`gravity13w9zq85yuk8jud83h2qncrzlsfq9s48k85t97c`
+`persistence13w9zq85yuk8jud83h2qncrzlsfq9s48kdglw45`
+`"channel-24", "channel-38"`
+
 **Start whith state-sync**
 
 ```
