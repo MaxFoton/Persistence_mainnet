@@ -23,8 +23,7 @@
 
 ***IBC Relayer GravityBridge***
 `gravity13w9zq85yuk8jud83h2qncrzlsfq9s48k85t97c`
-`persistence13w9zq85yuk8jud83h2qncrzlsfq9s48kdglw45`
-`"channel-24", "channel-38"`
+`[persistence13w9zq85yuk8jud83h2qncrzlsfq9s48kdglw45](https://relayers.smartstake.io/relayer/F9E8F95B6CF1152E)`
 
 **Start whith state-sync**
 
