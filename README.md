@@ -9,23 +9,19 @@
 
 `Valoper` persistencevaloper1p509xkuc9a085rjetrp6gs2q6ca2246r59k9q3
 
-**RPC**
-`RPC 95.165.89.222:26567`
+`RPC` 95.165.89.222:26567
 
-**API**
-`API 95.165.89.222:1326`
+`API` 95.165.89.222:1326
 
-**gRPC** 
-`gRPC 95.165.89.222:9392`
+`gRPC` 95.165.89.222:9392
 
-**Peer**
 `Peer` 88497ab3bbbcc1e8545771f45020e738bcce590f@95.165.89.222:26565
 
 ***IBC Relayer GravityBridge***
 `gravity13w9zq85yuk8jud83h2qncrzlsfq9s48k85t97c`
 `[persistence13w9zq85yuk8jud83h2qncrzlsfq9s48kdglw45](https://relayers.smartstake.io/relayer/F9E8F95B6CF1152E)`
 
-**Start whith state-sync**
+**Start with state-sync**
 
 ```
 sudo systemctl stop persistenceCore && persistenceCore tendermint unsafe-reset-all --home $HOME/.persistenceCore
@@ -54,7 +50,7 @@ s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" $HOME/.persistenceCore/config/co
 curl -o - -L https://raw.githubusercontent.com/MaxFoton/Persistence_mainnet/main/wasm.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.persistenceCore/
 ```
 
-**Enable service and start**
+*Enable service and start*
 
 ```
 sudo systemctl daemon-reload && sudo systemctl enable persistenceCore
