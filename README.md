@@ -3,7 +3,7 @@
 
 `Github` https://github.com/persistenceOne
 
-`Validator` maxfoton
+`Validator` Max Foton nodes
 
 `Delegate` https://ping.pub/persistence/staking/persistencevaloper1p509xkuc9a085rjetrp6gs2q6ca2246r59k9q3
 
